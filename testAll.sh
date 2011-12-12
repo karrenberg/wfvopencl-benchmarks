@@ -80,3 +80,5 @@ run build/bin/SobelFilter -q -e "$@"
 run build/bin/URNG -q -e "$@"
 
 printStats
+
+exit $((total - success))
