@@ -5,16 +5,18 @@ Benchmark suite for WFVOpenCL.
 ---------------
 
 * WFVOpenCL (https://github.com/karrenberg/wfvopencl)
+* LLVM (http://www.llvm.org)
 * SCons (http://www.scons.org)
 
 2. Building
 --------
 
-First you need to set the paths WFV_INSTALL DIR and WFVOPENCL_INSTALL_DIR to
-their appropriate locations.
+First you need to set the paths WFV_INSTALL_DIR, WFVOPENCL_INSTALL_DIR and
+LLVM_INSTALL_DIR to their appropriate locations.
 
 $ export WFV_INSTALL_DIR=/path/to/whole-function-vectorization
 $ export WFVOPENCL_INSTALL_DIR=/path/to/wfvopencl
+$ export LLVM_INSTALL_DIR=/path/to/llvm
 
 To build the benchmarks, simply run
 
