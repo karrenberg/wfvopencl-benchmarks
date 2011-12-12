@@ -1,0 +1,33 @@
+Benchmark suite for WFVOpenCL.
+==============================
+
+1. Requirements
+---------------
+
+* WFVOpenCL (https://github.com/karrenberg/wfvopencl)
+* SCons (http://www.scons.org)
+
+2. Building
+--------
+
+First you need to set the paths WFV_INSTALL DIR and WFVOPENCL_INSTALL_DIR to
+their appropriate locations.
+
+$ export WFV_INSTALL_DIR=/path/to/whole-function-vectorization
+$ export WFVOPENCL_INSTALL_DIR=/path/to/wfvopencl
+
+To build the benchmarks, simply run
+
+$ scons
+
+The binaries can then be found in the directory build/bin. For example, to run
+the NBody test, execute
+
+$ build/bin/NBodySimple
+
+This should display some nice yellow dots flying through space.
+
+3. Measuring
+------------
+
+TODO: How do I use the benchmarks to compare this driver to others?
