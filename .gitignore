@@ -4,3 +4,4 @@
 # binaries
 build
 lib/*.a
+src/**/*.o
